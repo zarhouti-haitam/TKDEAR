@@ -196,8 +196,24 @@
     
     font-size: 2.3vw;
     font-weight: bolder;
+    font-family:  "Archicoco Regular" !important;;
     text-transform: uppercase;
+    color: #ca8618;
+    animation: effetlumiere 3s infinite;
     
+    
+}
+
+@keyframes effetlumiere {
+    0% {
+        text-shadow: 0 0 10px #ca8618;
+    }
+    50% {
+        text-shadow: 0 0 20px #ca8618, 0 0 30px #ca8618;
+    }
+    100% {
+        text-shadow: 0 0 10px #ca8618;
+    }
 }
 
 #locationofevent {
@@ -506,7 +522,7 @@
     padding: 15px;
     margin: 0;
     color: #333;
-    font-size: 1.5em; /* Slightly larger title */
+    font-size: 1.5em;
     
 }
 
@@ -517,7 +533,7 @@
     line-height: 1.5;
 }
 
-/* Add a "Read More" link */
+
 .news-card .read-more {
     
     
@@ -535,7 +551,7 @@
 
 .news-card img {
     width: 100%;
-    height: 500x;
+    
     object-fit: cover;
     
 }
