@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TKDEAR</title>
+    <link rel="stylesheet" href="Homestyle.css">
+    <link rel="icon" type="image/png"  href="Ideas/casqueREAL.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+        1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+        ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+
+        <nav id="Home" class="navbar d-flex navbar-expand-lg ">
+            <nav class="container-fluid d-flex  align-items-center">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="Ideas/casqueREAL.svg" width="80" height="50" class="d-inline-block align-top"
+                        alt="Logo">
+                    <span class="titlesinarchi ms-auto">TKDEAR</span>
+                </a>
+
+
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav container" id="elementsofnav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Registration.html">Registration</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Shop.html">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="elementsonright" class=" mb-1  d-flex align-items-center gap-4 ">
+
+
+                    <form class="form-inline">
+                        <div class="flexsearch">
+
+                            <button id="searchbutton" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                    height="18" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg></button>
+                            <input class="form mr-sm-2" id="searchbar" type="search" placeholder="Search Events"
+                                autocomplete="off" aria-label="Search">
+
+                        </div>
+
+                    </form>
+
+                    
+                    <a href="Cart.html#user">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-cart4"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                        </svg>
+                    </a>
+
+                    <ul class="  navbar-nav ms-auto mb-2 mb-lg-0 profile-menu">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-flex  align-items-center" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="profile-pic ">
+                                    <img id="profilepic" src="Ideas/Haitam.png" alt="">
+                                </div>
+
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                            class="bi bi-person" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                                        </svg> Account</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                            class="bi bi-gear" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
+                                            <path
+                                                d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
+                                        </svg> Settings</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" style="color: white;">
+                                </li>
+                                <li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                            class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z" />
+                                            <path fill-rule="evenodd"
+                                                d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+                                        </svg> Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </nav>
+
+
+        </nav>
+
+        <!---------------------End of Navbar----------------------------->
+
+
+        <div class="image-container">
+
+            <div class="leftflex">
+
+
+                <span class="eventitself" id="upcoming">upcoming event : </span>
+                <span class="eventitself" id="mainevent">taekwondo team world cup</span>
+                <span class="eventitself" id="locationofevent">Location : Wuxi , China </span>
+                <span class="eventitself" id="dateofevent">Date : 22th December, 2025</span>
+                <pre class="eventitself" id="descriptionofevent">Wuxi, China Hosts for the 3rd time the Taekwondo Team World Cup 
+Register Now and Join the tournement to win the prize </pre>
+                <div class="twobutton"><a href="Registration.html"><button id="registerbutton" type="button"
+                            class="btn btn-primary">Register Now</button></a>
+                    <button id="addtofavs" type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="1.4vw" height="2.5vh" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                        </svg></button>
+                </div>
+            </div>
+
+
+            <div id="rectangle">
+
+                <span id="smallerupcoming">Event</span>
+                <a href=""><img id="smallerimage" src="Ideas/photo princ2.png" alt="Same_bg_image"></a> 
+                
+
+                <ul id="listofsmallerevents">
+                    <li>Location : Wuxi , China</li>
+                    <li>Date : 22th December, 2025</li>
+                    <li>Prize : 50.000 $</li>
+                    <li>National Team Players Only </li>
+                </ul>
+
+
+
+            </div>
+        </div>
+
+
+
+        <!----------------------------- big image and rectangle and smaller text --------------------->
+
+
+
+
+
+        <section class="featured-events">
+            <h2 class="section-title">Featured Events</h2>
+            <div class="events-grid">
+
+                <div class="event-card">
+                    <img src="Ideas/european.png" alt="Event 1">
+                    <a href="Registration.html"><button class="register-btn">Register Now</button></a>
+                    <h3>European Championship</h3>
+                    <p>Paris, France</p>
+                </div>
+
+                <div class="event-card">
+                    <img src="Ideas/qatar op.jpg" alt="Event 2">
+                    <a href="Registration.html"><button class="register-btn">Register Now</button></a>
+                    <h3>Qatar Open</h3>
+                    <p>Doha, Qatar</p>
+                </div>
+
+                <div class="event-card">
+                    <img src="Ideas/rempaccra.png" alt="Event 3">
+                    <a href="Registration.html"><button class="register-btn">Register Now</button></a>
+                    <h3>African Games</h3>
+                    <p>Accra, Ghana</p>
+                </div>
+
+                <div class="event-card">
+                    <img src="Ideas/deutch.jpg" alt="Event 4">
+                    <a href="Registration.html"><button class="register-btn">Register Now</button></a>
+                    <h3>Deutch Open</h3>
+                    <p>Eindhoven, Netherlands</p>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <section class="shop">
+
+            <h2 class="section-title">Shop by category</h2>
+
+
+            <div class="tkdshop_grid">
+                <div class="item_circle">
+                    <a href="Shop.html#doboks"><img src="Ideas/dobok.png" alt="item1">
+                        <h3>Dobok</h3>
+                    </a>
+                </div>
+
+                <div class="item_circle">
+                    <a href="Shop.html#protections"><img src="Ideas/protections.png" alt="item2">
+                        <h3>Protections</h3>
+                    </a>
+                </div>
+
+                <div class="item_circle">
+                    <a href="Shop.html#More"><img src="Ideas/belts.png" alt="item3">
+                        <h3>Belts</h3>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section class="news-section">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-grid">
+
+                <article class="news-card">
+                    <img src="Ideas/awarding.jpg" alt="News 1">
+                    <h3>Diamond League Results</h3>
+                    <p>Athletes were given Medals and Prizes <a href="https://www.worldtaekwondo.org/competition/list.html?mcd=R08" class="read-more">Read More...</a></p>
+                    
+                </article>
+
+                <article class="news-card">
+                    <img src="Ideas/techremp.jpg" alt="News 1">
+                    <h3>New Technology in Taekwondo</h3>
+                    <p>A new type of tournement was tested for the first time in Singapore <a href="https://www.worldtaekwondo.org/competition/view.html?nid=141012&mcd=W03&sc=ne" class="read-more">Read More...</a></p>
+                    
+                </article>
+            </div>
+        </section>
+
+
+        <section class="stats">
+            <div class="stat-item">
+                <h3>1000+</h3>
+                <p>Active Athletes</p>
+            </div>
+            <div class="stat-item">
+                <h3>50+</h3>
+                <p>Countries</p>
+            </div>
+        </section>
+
+
+        <footer class="main-footer">
+            <div class="footer-content">
+
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: zarhoutihaitam@gmail.com</p>
+                    <p>Phone: +33752089633</p>
+                </div>
+                <div class="footer-section flexfield">
+
+                    <h4>Follow Us</h4>
+                    <div class="socialmedia">
+                        <a href="https://www.instagram.com/zarhouti.haitam/"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" fill="grey" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg></a>
+                        <a href="https://www.facebook.com/people/Haitam-Zar/100006806115792/?_rdr"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="grey"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

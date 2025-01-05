@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Archicoco Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Archicoco Regular'), url('Ideas/Archicoco.woff') format('woff');
+    }
+
+.navbar-brand {
+        display: flex;
+        align-items: center;
+            
+}
+
+
+.navbar-brand img {
+    
+    margin-left: 10px;
+}
+
+.container{
+    justify-content: center;
+}
+
+.titlesinarchi{
+    font-family: "Archicoco Regular" !important;
+    font-size: 1.1em;
+    color: white;
+    
+}   
+
+#Home{
+    background-color: #151515;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    
+    
+}
+
+.nav-link{
+    font-family: sans-serif;
+    font-weight: 450;
+    color: rgb(248, 248, 248) !important;
+    font-size: 1em;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover {
+    color: rgb(247, 175, 40) !important; 
+}
+
+#elementsofnav{
+    display: flex;
+    margin-left: 25px;
+    gap: 50px;
+    
+   
+}
+
+.dropdown-menu {
+    background-color: #151515 !important; 
+    border: none; 
+}
+
+
+.dropdown-item{
+    
+    color: white !important;
+    font-family: sans-serif !important ; 
+    font-weight: 450 !important;
+   
+
+}
+
+.dropdown-item:hover {
+    background-color: #444 !important; 
+}
+
+#profilepic {
+    border-radius: 50% !important; 
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 10px;
+    
+
+}
+
+.bi-search:hover {
+    transform: orange  !important;
+
+}
+
+#searchbutton{
+    background-color: #151515 !important;
+    border: none !important;
+}   
+
+
+
+#searchbar{
+    background-color: #2d2d2d !important;
+    border: 0.5px solid #434343 !important;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    color: rgb(174, 174, 174);
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#searchbar:focus {
+    outline: none;  
+}
+
+#searchbar::placeholder {
+    color: rgb(126, 126, 126);
+
+
+}
+
+#elementsonright{
+    padding-right: 20px !important;
+   
+}
+
+
+
+.bi-cart4{
+    margin-bottom: 2px;
+}
+
+.bi:hover , #profilepic:hover {
+    transform: scale(1.2); 
+    transition: transform 0.2s ease; 
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    gap: 10px !important   
+}
+
+
+/*-----------------------------------navbar------------------------------------*/
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url(Ideas/Acccra.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    background-size: cover;
+}
+
+
+
+
+.main {
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+.form_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding : 30px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+    .form_card {
+        margin-top: 20px; 
+    }
+}
+
+.flexfield{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-group label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+}
+
+.form-group1{
+    width: 100%;
+}
+
+#choice {
+    
+    background-color: rgb(176, 114, 7);
+}
+
+.belowh5{
+   
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-size: 1em;
+}
+.btn-primary {
+    
+    font-size: 1em;
+    font-weight: 500 !important;
+    padding: 10px 20px;
+    border-radius: 10px !important;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+.btn-primary{
+    background-color: rgb(132, 132, 132) !important;
+    border: rgb(166, 166, 166) 2px solid !important;
+}
+
+.reset:hover{
+    background-color: rgb(189, 27, 24) !important;
+    border: rgb(230, 230, 230) 2px solid !important;
+}
+
+.submit:hover{
+    background-color:  rgb(176, 114, 7) !important;
+    color: black !important;
+}
+
